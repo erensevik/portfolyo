@@ -1,0 +1,273 @@
+/* <=========================  HOME PAGE HEADER KISMI BAŞLANGIÇ  ================================> */
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+/* Header Kısmı */
+
+.language li{
+    list-style: none;
+    margin-right: 5px;
+}
+
+.language li a{
+    text-decoration: none;
+    color: white;
+}
+
+nav img{
+    width: 250px;
+}
+
+.homePageHeader {
+    height: 100vh;
+    background: linear-gradient(rgba(29, 29, 155, 0.5),rgba(30, 30, 109, 0.5)), url(https://aksan.av.tr/Photos/Slider/thumbs/e3d75e70.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 1;
+}
+.btnn {
+    color: white;
+    background: none;
+    border: none;
+    border-bottom: 1px solid white;
+    transition: ease 1s;
+}
+
+.btnn:hover{
+    background-color: white;
+    color: black;
+}
+
+.space {
+    height: 80vh;
+}
+.nav-scrolled{
+    width: 100%;
+    height: 12vh;
+    background-color:rgb(0, 0, 0);
+    position: fixed;
+    top: 0;
+    transition: 1s;
+    z-index: 2;
+}
+
+
+.bg-img {
+        align-items: center;
+        background: linear-gradient(rgba(0, 0, 100, 0.5),rgba(0, 59, 98, 0.8)), url(https://aksan.av.tr/Photos/PageContent/thumbs/a42e67fa.jpg);
+        background-size: cover;
+        background-position: center;
+        background-repeat: none;
+}
+.btns{
+    color: white;
+    background: none;
+    border: none;
+    border-bottom: 1px solid gray;
+    transition: ease 1s;
+}
+.btns:hover{
+    background-color: white;
+    color: black;
+}
+
+.footer {
+    background-color: #020a20;
+}
+
+.footer a {
+    text-decoration: none;
+    color: white;
+}
+
+.hakkımızdaPageHeader {
+    height: 65vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.5),rgba(30, 30, 109, 0.5)), url(./İmg/b6474c4f.JPG);
+    background-size: cover;
+    background-position: center;
+    opacity: 1;
+    background-attachment: fixed;
+}
+.white-text {
+    margin-top: 200px;
+}
+.bg-img2 {
+        align-items: center;
+        background: linear-gradient(rgba(0, 0, 0, 0.5),rgba(30, 30, 109, 0.5)), url(./İmg/761b60e4.JPG);
+        background-size: cover;
+        background-position: center;
+        background-repeat: none;
+}
+.hizmetlerimizPageHeader{
+    max-width: 100%;
+    height: 65vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.5),rgba(30, 30, 109, 0.5)), url(./İmg/771e046a.jpg);
+    background-size: cover;
+    opacity: 1;
+    background-attachment: fixed;
+}
+.hizmetLists ul li a{
+    text-decoration: none;
+    color: black;
+}
+.hizmetLists ul li a:hover{
+    color: brown;
+}
+.hizmetLists ul li{
+    padding: 5px;
+}
+.takimPageHeader {
+    height: 38vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.5),rgba(30, 30, 109, 0.5)), url(./İmg/cb3864b4.jpg);
+    background-size: cover;
+    background-position: center;
+    opacity: 1;
+    background-attachment: fixed;
+}
+.takimLists ul li a{
+    text-decoration: none;
+    color: black;
+}
+.takimLists ul li{
+    padding: 3px;
+}
+.takimLists ul li a:hover{
+    color: brown;
+}
+.takimInputs input{
+    border: none;
+    border-bottom: 1px solid gray;
+    padding: 4px;
+    width: 100%;
+}
+.takimInputs select {
+    margin-top: 10px;
+    width: 100%;
+}
+.btnAra {
+    margin-left: 45%;
+}
+.alfabetik a{
+text-decoration: none;
+color: black;
+padding: 2px;
+}
+.alfabetik {
+border-bottom: 1px solid gray;
+}
+.cards h3{
+    color: black;
+}
+.kariyerPageHeader {
+    height: 55vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url(./İmg/2c6fd614.JPG);
+    background-size: cover;
+    background-position: center;
+    opacity: 1;
+    background-attachment: fixed;
+}
+.bg-img-kariyer {
+        background: linear-gradient(rgba(0, 0, 100, 0.5),rgba(0, 59, 98, 0.8)), url(./İmg/9f15ad08.JPG);
+        background-repeat: none;
+        background-position: center;
+        background-size: cover;
+        height: 40vh;
+}
+.kariyerSectionImg img{
+    border-radius: 100%;
+    width: 250px;
+}
+.bg-img2 {
+        align-items: center;
+        background: linear-gradient(rgba(0, 0, 100, 0.5),rgba(0, 59, 98, 0.8)), url(./İmg/5e798fbd.jpg);
+        background-size: cover;
+        background-position: center;
+        background-repeat: none;
+}
+.hizmetNoktasiPageHeader {
+    height: 50vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url(./İmg/7b487e4b.jpg);
+    background-size: cover;
+    background-position: center;
+    opacity: 1;
+    background-attachment: fixed;
+}
+.img-hnoktasi {
+    display: flex;
+    height: 50vh;
+    width: 100%;
+    background: linear-gradient(rgba(5, 30, 121, 0.5), rgba(1, 8, 39, 0.5)), url(./İmg/42f58391.JPG); 
+    background-size: cover;
+}
+.btn2 {
+    color: gray;
+    background: none;
+    border: none;
+    border-bottom: 2px solid gray;
+    transition: ease 1s;
+}
+
+.btn2:hover{
+    background-color: black;
+    color: white;
+}
+.mg-hnoktasi2 {
+    display: flex;
+    height: 50vh;
+    width: 100%;
+    background: linear-gradient(rgba(5, 30, 121, 0.5), rgba(1, 8, 39, 0.5)), url(./İmg/f118d891.jpg); 
+    background-size: cover;
+}
+.blog .p {
+    font-size: 11px;
+}
+.blog a{
+    color: black;
+    text-decoration: none;
+    font-size: 12px;
+}
+.lists2 ul li a{
+    color: gray;
+}
+.lists2 ul li{
+    padding: 5px;
+}
+.blogPageHeader {
+    height: 38vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url(./İmg/ac73dd37.jpg);
+    background-size: cover;
+    background-position: center;
+    opacity: 1;
+    background-attachment: fixed;
+}
+.iletisimPageHeader {
+    height: 50vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url(./İmg/4bc039ab.jpg);
+    background-size: cover;
+    background-position: center;
+    opacity: 1;
+    background-attachment: fixed;
+}
+.iletisimInput input{
+    border: none;
+    border-bottom: 1px solid gray;
+    padding: 4px;
+    width: 100%;
+}
+.iletisimInput select {
+    margin-top: 10px;
+    width: 100%;
+}
+.iletisimInput textarea {
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid gray;
+}
+.zort {
+    margin: 0;
+    padding: 0;
+}
